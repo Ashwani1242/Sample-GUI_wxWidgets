@@ -20,5 +20,4 @@ MainFrame::MainFrame(const wxString& title): wxFrame(nullptr, wxID_ANY, title)  
 	wxListBox* listBox = new wxListBox(panel, wxID_ANY, wxPoint(150, 450), wxDefaultSize, choices);
 
 	wxRadioBox* radioBox = new wxRadioBox(panel, wxID_ANY, "Radio Box", wxPoint(150, 500), wxDefaultSize, choices);
-	wxRadioBox* radioBoxx = new wxRadioBox(panel, wxID_ANY, "Radio Box", wxPoint(150, 600), wxDefaultSize, choices);
 }
